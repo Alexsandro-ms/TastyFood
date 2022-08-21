@@ -1,25 +1,24 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import { Nav } from "./style";
+import { ItemLinks, Nav } from "./style";
 
 function NavBar() {
   return (
     <Nav>
       <ul>
         <li>
-          <NavLink to="/">Inicio</NavLink>
+          <ItemLinks to="/">Inicio</ItemLinks>
         </li>
         <li>
-          <NavLink to="/">Sobre</NavLink>
+          <ItemLinks to="/about">Sobre</ItemLinks>
         </li>
         <li>
-          <NavLink to="/">Cardapio</NavLink>
+          <ItemLinks to="/menu">Cardapio</ItemLinks>
         </li>
         <li>
-          <NavLink to="/">Novo</NavLink>
+          <ItemLinks to="/new-products">Novo</ItemLinks>
         </li>
         <li>
-          <NavLink to="/">Suporte</NavLink>
+          <ItemLinks to="/suport">Suporte</ItemLinks>
         </li>
       </ul>
     </Nav>

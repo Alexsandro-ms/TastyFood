@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import LogoImg from "../../assets/images/logo.svg";
 import { Img } from "./style";
+import { FaHamburger } from "react-icons/fa";
 
 function Logo() {
+  const [mode, setMode] = useState([]);
   return (
     <Img>
-      <img src={LogoImg} title={"hamburguer"} alt={"logo hamburguer"} />
+      <FaHamburger />
       <span>Tasty</span>
     </Img>
   );

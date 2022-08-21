@@ -4,6 +4,10 @@ export const Img = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  svg {
+    font-size: 25px;
+    color: ${(props) => props.theme.colors.font};
+  }
   span {
     color: ${(props) => props.theme.colors.font};
     font-size: 1.25rem;
