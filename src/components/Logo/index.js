@@ -1,17 +1,15 @@
-import React, { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 
-import { Img } from "./style";
+import { Logo } from "./style";
 import { FaHamburger } from "react-icons/fa";
 
-function Logo() {
-  const [mode, setMode] = useState([]);
+function LogoTipo() {
   return (
-    <Img>
+    <Logo>
       <FaHamburger />
       <span>Tasty</span>
-    </Img>
+    </Logo>
   );
 }
 
-export default Logo;
+export default LogoTipo;

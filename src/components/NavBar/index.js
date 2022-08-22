@@ -1,9 +1,9 @@
 import React from "react";
 import { ItemLinks, Nav } from "./style";
 
-function NavBar() {
+function NavBar({ activeMenu }) {
   return (
-    <Nav>
+    <Nav active={activeMenu ? "0" : "-100%"}>
       <ul>
         <li>
           <ItemLinks to="/">Inicio</ItemLinks>

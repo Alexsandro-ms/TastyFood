@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ContextTheme } from "../../contexts/ContextTheme";
-import * as IconsVs from "react-icons/vsc";
+import { VscColorMode } from "react-icons/vsc";
 import { Button } from "./style";
 
 function ThemeButton() {
@@ -8,7 +8,7 @@ function ThemeButton() {
 
   return (
     <Button onClick={toggleTheme}>
-      <IconsVs.VscColorMode />
+      <VscColorMode title={"Tema"} alt="Mudar tema" />
     </Button>
   );
 }

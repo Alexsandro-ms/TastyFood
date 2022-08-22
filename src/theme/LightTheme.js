@@ -1,3 +1,4 @@
+// Definindo e exportando o tema Light que vai ser usado no site
 const LightTheme = {
   name: "light",
   colors: {
