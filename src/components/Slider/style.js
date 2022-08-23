@@ -10,7 +10,7 @@ export const Item = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   @media screen and (max-width: 761px) {
     flex-direction: column-reverse;
     height: 100vh;
@@ -19,13 +19,17 @@ export const Item = styled.div`
 
 export const SideLeft = styled.div`
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   @media screen and (max-width: 761px) {
+    margin-top: 25px;
     width: 100%;
+    height: 100%;
   }
   img {
     width: 100%;
-    max-width: 423px;
-    height: 100%;
+    max-width: 500px;
   }
 `;
 export const SideRight = styled.div`
