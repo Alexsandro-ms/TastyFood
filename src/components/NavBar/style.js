@@ -38,6 +38,8 @@ export const ItemLinks = styled(NavLink)`
   padding: 0 5px;
   /* Estilizando a classe active padrão do NavLink */
   &.active {
+    padding: 5px 12px;
+    border-radius: 3px;
     background-color: ${(props) => props.theme.colors.secundary};
     color: white;
     font-weight: 500;
