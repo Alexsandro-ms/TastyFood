@@ -2,17 +2,22 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 95%;
-  height: 50vh;
   margin: 0 auto;
+  @media screen and (max-width: 761px) {
+    width: 100%;
+  }
   h1 {
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
     letter-spacing: 0.1em;
   }
   ul {
     display: flex;
     list-style: none;
+    @media screen and (max-width: 761px) {
+      flex-direction: column;
+    }
   }
 `;
 
@@ -24,8 +29,7 @@ export const Icons = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  div {
-  }
+
   svg {
     font-size: 5rem;
   }
