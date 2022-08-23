@@ -5,6 +5,7 @@ export const sliderData = [
   {
     img: Salad,
     text: {
+      alt: "Salada",
       subtitle: "#1 of this week",
       title: "Coma Saudável Seja Saudável",
       description:
@@ -14,6 +15,7 @@ export const sliderData = [
   {
     img: Combo_hamb,
     text: {
+      alt: "Combo Hamburguer",
       subtitle: "#2 of this week",
       title: "Agora Com Mais Recheio",
       description:

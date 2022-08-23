@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 95%;
-  height: 90vh;
   margin: 75px auto;
 `;
 
@@ -12,12 +11,17 @@ export const Item = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  @media screen and (max-width: 761px) {
+    flex-direction: column-reverse;
+    height: 100vh;
+  }
 `;
 
 export const SideLeft = styled.div`
   width: 50%;
-  height: 100%;
+  @media screen and (max-width: 761px) {
+    width: 100%;
+  }
   img {
     width: 100%;
     max-width: 423px;
@@ -28,6 +32,11 @@ export const SideRight = styled.div`
   width: 40%;
   max-width: 400px;
   height: 100%;
+  @media screen and (max-width: 761px) {
+    width: 100%;
+    text-align: center;
+    max-width: 100%;
+  }
   span {
     font-size: 0.85rem;
     font-weight: 500;
@@ -40,6 +49,10 @@ export const SideRight = styled.div`
     font-weight: 600;
     line-height: 72px;
     text-align: left;
+    @media screen and (max-width: 761px) {
+      font-size: 3rem;
+      text-align: center;
+    }
   }
   p {
     font-size: 1rem;
@@ -47,5 +60,11 @@ export const SideRight = styled.div`
     line-height: 24px;
     text-align: left;
     color: gray;
+    @media screen and (max-width: 761px) {
+      text-align: center;
+    }
+  }
+  button {
+    margin-top: 8px;
   }
 `;
