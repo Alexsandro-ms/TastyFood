@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  width: 95%;
-  margin: 10rem auto;
+  width: 100%;
+  height: 50vh;
+  margin-top: 10rem;
   @media screen and (max-width: 761px) {
+    margin-top: 20rem;
     width: 100%;
   }
   h1 {

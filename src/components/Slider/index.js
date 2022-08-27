@@ -43,7 +43,9 @@ function Slider() {
                 <span>{item.text.subtitle}</span>
                 <h1>{item.text.title}</h1>
                 <p>{item.text.description}</p>
-                <Button text={"Pedir Agora"} />
+                <div>
+                  <Button text={"Pedir Agora"} />
+                </div>
               </SideRight>
             </Item>
           );
