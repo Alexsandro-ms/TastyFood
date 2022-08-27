@@ -15,9 +15,6 @@ function NavBar({ activeMenu }) {
           <ItemLinks to="/menu">Cardapio</ItemLinks>
         </li>
         <li>
-          <ItemLinks to="/new-products">Novo</ItemLinks>
-        </li>
-        <li>
           <ItemLinks to="/suport">Suporte</ItemLinks>
         </li>
       </ul>
