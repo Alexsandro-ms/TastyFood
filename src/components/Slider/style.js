@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Container = styled.section`
   width: 95%;
   margin: 75px auto;
+  @media screen and (max-width: 761px) {
+    width: 100%;
+    height: 100vh;
+  }
 `;
 
 export const Item = styled.div`
@@ -25,11 +29,14 @@ export const SideLeft = styled.div`
   @media screen and (max-width: 761px) {
     margin-top: 25px;
     width: 100%;
-    height: 100%;
+    height: 30%;
   }
   img {
     width: 100%;
     max-width: 500px;
+    @media screen and (max-width: 761px) {
+      max-width: 100%;
+    }
   }
 `;
 export const SideRight = styled.div`
@@ -38,6 +45,7 @@ export const SideRight = styled.div`
   height: 100%;
   @media screen and (max-width: 761px) {
     width: 100%;
+    height: 70%;
     text-align: center;
     max-width: 100%;
   }
@@ -54,7 +62,7 @@ export const SideRight = styled.div`
     line-height: 72px;
     text-align: left;
     @media screen and (max-width: 761px) {
-      font-size: 3rem;
+      font-size: 2.75rem;
       text-align: center;
     }
   }

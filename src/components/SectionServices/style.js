@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 95%;
-  margin: 15rem auto;
+  margin: 10rem auto;
   @media screen and (max-width: 761px) {
     width: 100%;
   }

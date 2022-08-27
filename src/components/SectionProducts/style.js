@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  margin-top: 15rem;
+  margin-top: 5rem;
   display: flex;
   @media screen and (max-width: 761px) {
     height: 100vh;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
   }
 `;
