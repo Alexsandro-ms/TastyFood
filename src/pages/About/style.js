@@ -11,8 +11,11 @@ export const Container = styled.section`
 
 export const Content = styled.div`
   width: 100%;
+  a {
+    color: ${(props) => props.theme.colors.secundary};
+  }
   p {
-    color: white;
+    color: ${(props) => props.theme.colors.font};
   }
   h2 {
     margin-top: 15px;

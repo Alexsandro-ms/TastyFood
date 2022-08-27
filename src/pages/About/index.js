@@ -53,7 +53,7 @@ function About() {
           Rackham.
         </span>
         <ContainerButton>
-          <Button text={"Conhecer"} />
+          <Button text={"Nossas Filiais"} />
         </ContainerButton>
       </Content>
     </Container>
